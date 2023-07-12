@@ -1,34 +1,38 @@
 /* header related style*/
-.header{
+.header {
     background: rgba(229, 84, 115, 0.10);
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 400px;
-    height: 500px;
+
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 80px;
     font-weight: 500px;
-    
+
 }
+
 /*  common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500px;
     line-height: normal;
     border-radius: 8px;
     background: #E55473;
     border: 0;
-    padding: 20px 43px;
+    padding: 20px 40px;
 }
-
