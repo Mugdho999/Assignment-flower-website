@@ -3,13 +3,18 @@
     background: rgba(229, 84, 115, 0.10);
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
 .banner .profile-picture{
     width: 400px;
-    height: 600px;
+    height: 500px;
+}
+.banner-heading{
+    font-size: 80px;
+    font-weight: 500px;
+    
 }
 /*  common shared styles */
 body{
@@ -19,10 +24,11 @@ body{
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     border-radius: 8px;
     background: #E55473;
     border: 0;
+    padding: 20px 43px;
 }
+
